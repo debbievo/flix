@@ -23,7 +23,9 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### Notes
 Describe any challenges encountered while building the app.
+
 I got a "No such module" error when trying to import the Alamofire libaries, but after checking some previous questions in the Discussion System, I was able to resolve it using the top answer. 
+
 The solution was to add the following lines to the Podfile to get the modules to work:
 ~~~~
 pod 'AlamofireImage', '~> 3.3' 

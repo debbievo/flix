@@ -2,7 +2,23 @@
 
 Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-📝 `NOTE - PASTE PART 2 SNIPPET HERE:` Paste the README template for part 2 of this assignment here at the top. This will show a history of your development process, which users stories you completed and how your app looked and functioned at each step.
+## Flix Part 2
+
+### User Stories
+
+#### REQUIRED (10pts)
+- [x] (5pts) User can tap a cell to see more details about a particular movie.
+- [x] (5pts) User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
+
+#### BONUS
+- [ ] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
+- [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
+
+### App Walkthough GIF
+<img src="http://g.recordit.co/CnuNxCVHvd.gif" width=250><br>
+
+### Notes
+When I was working on the tab bar controller portion, I had some trouble figuring out why I kept getting a black screen. I figure out eventually that it was because I didn't change where the arrow was pointing. It had to point to the Tab Bar Controller on the main storyboard rather than the first navigation controller that was made. 
 
 ---
 
@@ -22,8 +38,6 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 <img src="http://g.recordit.co/8OcD6KTEPI.gif" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
-
 I got a "No such module" error when trying to import the Alamofire libaries, but after checking some previous questions in the Discussion System, I was able to resolve it using the top answer. 
 
 The solution was to add the following lines to the Podfile to get the modules to work:

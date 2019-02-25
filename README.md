@@ -11,11 +11,11 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [x] (5pts) User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
 
 #### BONUS
-- [ ] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
+- [x] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
 - [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
 ### App Walkthough GIF
-<img src="http://g.recordit.co/CnuNxCVHvd.gif" width=250><br>
+<img src="http://g.recordit.co/NrIQmpsNPw.gif" width=250><br>
 
 ### Notes
 When I was working on the tab bar controller portion, I had some trouble figuring out why I kept getting a black screen. I figure out eventually that it was because I didn't change where the arrow was pointing. It had to point to the Tab Bar Controller on the main storyboard rather than the first navigation controller that was made. 
